@@ -39,6 +39,14 @@ près de leurs données.
 - **En production, pas en démo** : chaque modification passe par une revue, une vérification
   automatique et un déploiement contrôlé, avec contrôle de santé et retour arrière automatique.
 
+### Open source
+
+Des outils nés de notre exploitation en production, publiés par l'équipe :
+
+- [**fr-pii-guard**](https://github.com/raphael-bynome/fr-pii-guard) : masquer les données personnelles françaises avant un LLM, clés de contrôle vérifiées
+- [**approved-merge-guard**](https://github.com/raphael-bynome/approved-merge-guard) : ne déployer que les PR relues et vertes, même sans protection de branche
+- [**ollama-ping**](https://github.com/raphael-bynome/ollama-ping) : sonde de santé et de latence pour les serveurs Ollama, compatible Prometheus
+
 ### Nous contacter
 
 🌐 [bynome.ai](https://www.bynome.ai/)
